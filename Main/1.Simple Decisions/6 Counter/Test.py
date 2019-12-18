@@ -1,23 +1,27 @@
 print ("how many numbers you want?")
 numbers = int(input())
 array = []
-
+x=0
+y=0
 while numbers > 0:
-    x = 1
+    x += 1
     print("input number", x)
     number = int(input())
-    x += 1
+    
     array.append(number)
     numbers -=1
 
-while x >1:
-    y = 0
+print(array[0])
+while x >0:
+    
     if (array[y] % 2 == 0):
-        print ("The second number is the smallest!")
+        print ("even")
     else:
-        print ("They are equal!")
+        print ("odd")
     
     y+=1
     x-=1
+
+print(array[0])
 
 
