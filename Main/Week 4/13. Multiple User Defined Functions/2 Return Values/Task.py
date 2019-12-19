@@ -17,6 +17,7 @@ def run():
 
     print ("What would you like to calculate (sum or average)?")
     calculate = input()
+    
     if calculate == "sum":
         print ("The sum of Beep and Bop's weight is", sum_weights())
     elif calculate == "average":
