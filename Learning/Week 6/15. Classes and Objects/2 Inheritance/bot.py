@@ -51,5 +51,3 @@ class bot:
     def set_name(self):
         print ("What is the new name of the bot?")
         self.name = input()
-
-prins = bot("Prins", 5, 15, 45)

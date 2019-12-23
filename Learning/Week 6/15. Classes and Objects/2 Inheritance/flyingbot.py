@@ -12,7 +12,18 @@ class flyingbot(superbot):
         print("What is the hover distance?")
         self.hover = int(input())
 
+
+
+prins = flyingbot("Prins", 15, 20, 45, 70, 20)
+
 print ("""Name = {}
 Age = {}
 Super power level = {}
-Hover = {}""".function(self.name, self.age, self.super_power_level, self.hover))
+Hover = {}""".format(prins.name, prins.age, prins.super_power_level, prins.hover))
+
+prins.set_name()
+
+print ("""Name = {}
+Age = {}
+Super power level = {}
+Hover = {}""".format(prins.name, prins.age, prins.super_power_level, prins.hover))
